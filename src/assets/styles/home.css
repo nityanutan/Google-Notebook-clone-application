@@ -1,0 +1,22 @@
+.homeParentContainer {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+
+	.pinnedText {
+		color: rgb(95, 99, 104);
+		letter-spacing: 0.0727272727em;
+		font-family: Roboto, Arial, sans-serif;
+		font-size: 0.6875rem;
+		font-weight: 500;
+		line-height: 1rem;
+		text-transform: uppercase;
+		margin: 32px 32px 8px;
+	}
+
+	.notesContentContainer {
+		columns: 400px;
+		margin: 15px;
+	}
+}
