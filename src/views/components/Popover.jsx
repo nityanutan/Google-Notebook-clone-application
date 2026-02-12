@@ -189,7 +189,7 @@ const Popover = ({
 							}}
 							onClick={() => handleBackgroundColorClick(null)}
 						>
-							<i class="fa-solid fa-droplet-slash"></i>
+							<i className="fa-solid fa-droplet-slash"></i>
 						</div>
 						{colors?.map((ele, index) => (
 							<BackgroundColorComponent

@@ -22,18 +22,21 @@ const SearchBar = () => {
 	return (
 		<div className="searchBarParentContainer">
 			<div className="searchBarIconContainer">
-				<i class="fa-solid fa-magnifying-glass"></i>
+				<i className="fa-solid fa-magnifying-glass"></i>
 			</div>
 			<input
-				type="text"
-				className="searchBarInputContainer"
-				placeholder="Search"
-				value={search}
-				onChange={handleInputOnChange}
-			/>
+   type="text"
+   name="search"
+   id="search"
+   className="searchBarInputContainer"
+   placeholder="Search"
+   value={search}
+   onChange={handleInputOnChange}
+/>
+
 			{search?.length ? (
 				<div className="searchBarIconContainer" onClick={handleReset}>
-					<i class="fa-solid fa-xmark"></i>
+					<i className="fa-solid fa-xmark"></i>
 				</div>
 			) : (
 				""

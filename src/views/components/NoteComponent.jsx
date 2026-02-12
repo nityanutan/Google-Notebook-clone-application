@@ -80,7 +80,7 @@ const NoteComponent = ({ data, source, onClick }) => {
 						className="bottomActionButtonWrapper"
 						onClick={(e) => handleActionButtonClick(e, "trash", data)}
 					>
-						<i class="fa-solid fa-trash"></i>
+						<i className="fa-solid fa-trash"></i>
 					</div>
 				</>
 			);
@@ -99,7 +99,7 @@ const NoteComponent = ({ data, source, onClick }) => {
 						className="bottomActionButtonWrapper"
 						onClick={(e) => handleActionButtonClick(e, "trash", data)}
 					>
-						<i class="fa-solid fa-trash"></i>
+						<i className="fa-solid fa-trash"></i>
 					</div>
 				</>
 			);

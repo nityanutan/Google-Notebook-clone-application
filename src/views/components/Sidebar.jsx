@@ -4,16 +4,16 @@ import { useLocation, useNavigate } from "react-router";
 
 const menuItems = [
 	{
-		icons: <i class="fa-regular fa-lightbulb"></i>,
+		icons: <i className="fa-regular fa-lightbulb"></i>,
 		label: "Notes",
 		id: "notes",
 	},
 	{
-		icons: <i class="fa-regular fa-bell"></i>,
+		icons: <i className="fa-regular fa-bell"></i>,
 		label: "Archive",
 		id: "archive",
 	},
-	{ icons: <i class="fa-solid fa-trash"></i>, label: "Trash", id: "trash" },
+	{ icons: <i className="fa-solid fa-trash"></i>, label: "Trash", id: "trash" },
 ];
 
 const mapper = {
