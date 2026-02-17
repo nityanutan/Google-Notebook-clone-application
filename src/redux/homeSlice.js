@@ -1,17 +1,17 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-	notes: [
-		// {
-		// 	title: "",
-		// 	content: "",
-		// 	activeBackgroudColor: "",
-		// 	activeBackgroundImage: "",
-		// 	label: "notes", //notes,archive,trash
-		// 	pinned: false,
-		// 	id: crypto.randomUUID(),
-		// },
-	],
+	// notes: [
+	// 	// {
+	// 	// 	title: "",
+	// 	// 	content: "",
+	// 	// 	activeBackgroudColor: "black",
+	// 	// 	activeBackgroundImage: "",
+	// 	// 	label: "notes", //notes,archive,trash
+	// 	// 	pinned: false,
+	// 	// 	id: crypto.randomUUID(),
+	// 	// },
+	// ],
 	searchQuery: "",
 };
 
